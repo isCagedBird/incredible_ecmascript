@@ -1,11 +1,11 @@
 ### 1.写作初衷
-2017年，当时我还在大二的课堂，机缘巧合下（笑）开始接触到 `ECMAScript（以后的行文就简称 js 了）` 这门有趣的、功能丰富的编程语言迄今已有数年了，长时间以来使用这门语言，心中也诞生了一些感悟、想法与思考，我决定把这些内容联合语法叙述部分以文字的形式记载下来，循环地总结、学习、提升。  
-诚如博文项目标题`incredible ECMAScript`所示，本项目将聚焦 js 这门语言本身及其延伸内容。  
-内容将会以章节来划分，关联部分会涵盖在内一起娓娓道来，每一章节的对应 demo 代码会在对应章节的 demo_code 文件夹下找到。  
-如果您在阅读后，能够产生一些思考，那将是我衷心期望的。
+2017年，当时我还在大二的课堂，机缘巧合下（笑）开始接触到`ECMAScript`（以后的行文就简称js了）这门有趣的、功能丰富的编程语言迄今已有数年了，长时间使用这门语言，心中也诞生了一些感悟、想法、总结与思考，我决定把这些内容联合语法叙述部分以文字的形式记载下来，循环地总结、学习、提升。  
+诚如博文项目标题`incredible ecmascript`所言，本项目将聚焦js这门语言本身及其延伸内容。  
+内容将会以章节来划分，关联部分会涵盖在内一起娓娓道来，每一章节的对应demo代码会在对应章节的demo_code文件夹下找到。  
+如果您在阅读后，能够产生一些思考，那将是我衷心期望的。如果您发现了文章的谬误，恳请您通过issues告知，十分感谢。
 
 ### 2.开始吧
-惯例啦，学习一门语言应该从 `hello world` 开始：
+惯例啦，学习一门语言应该从`hello world`开始：
 ```javascript
 
 const helloWorld = Array(5).fill().reduce((p, _, i, __, T = 'Hello World', f = (_, l) => _.repeat(l), M = {0:f(`${f('_',5)} `,T.length), 1:f(`|${f(' ',3)}||`, T.length), 2:[...T].reduce((_p, v) => (_p += `| ${v} ||`,_p),''), 3:f(`|${f('_', 3)}||`, T.length), 4:f(`/${f('_', 3)}\\|`, T.length)}) => (p += M[i] + '\n', p),[])
@@ -19,9 +19,9 @@ console.info(helloWorld)
 
 ### 3.目录
 [awesome！incredible！异步编程其二——Promise](./async/main.md)  
-[awesome！incredible！异步编程其三——Generator/yield]()  
-[awesome！incredible！异步编程其四——async/await]()  
-[聊聊 runtime 中的事件循环]()  
+[awesome！incredible！异步编程其三——Generator/yield](./async/main.md)  
+[awesome！incredible！异步编程其四——async/await](./async/main.md)  
+[聊聊 runtime 中的事件循环](./event_loop/main.md)  
 [js中递归爆栈引发的思考]()  
 [golang 的协程写起来真的舒适，我们来看看js的协程]()    
 [函数式、命令式迭代方法大演练，一网打尽]()  
@@ -49,3 +49,4 @@ console.info(helloWorld)
 [js 程序员如何了解到更多的服务端开发知识]()  
 [聊聊 base64 转码]()  
 [用 canvas 搞一个酷炫的动画]()  
+[...]()

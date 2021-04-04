@@ -1,8 +1,8 @@
 ### 开始之前
 `js`在芸芸众编程语言中较为独树一帜的一点是它是一门单线程的语言。你可能会想，既然是单线程的语言，如何能做到异步编程这一点呢？不急我们可以先来看一个例子。
 
-[从这里找到 `anima` 方法的代码](./promise/demo_code/anima.js)  
-[从这里找到 `ball` 方法的代码](./promise/demo_code/ball.js)
+[从这里找到 `anima` 方法的代码](./demo_code/anima.js)  
+[从这里找到 `ball` 方法的代码](./demo_code/ball.js)
 ```javascript
 
 // 将 anima，ball 方法以及下面的代码依次复制
@@ -16,5 +16,15 @@ anima(set)
 // 你会看见一个红色的小球每间隔一秒下滑一段距离，同时控制台依次打印出 1, 2, 3, 4, 5, 6
 
 ```
-上面的动画小例子充分说明了`js`作为单线程的语言，却可以方便的做到异步任务的代码结构控制。  
-[先来了解一下 js 的事件循环机制](./promise/demo_code/anima.js) 
+上面的动画小例子说明了`js`作为单线程的语言，却可以方便的做到异步任务的代码结构控制。  
+[先来了解一下js的事件循环机制](../event_loop/main.md)   
+### js异步编程的发展
+分为四个时期：
+- 史前的`callback`时期，大量嵌套会造成callback hell
+  - [callback]()
+- 最主要解决callback hell的问题，由社区发展出的`Promise`方案
+  - [Promise]()
+- 可以中断函数执行的`Generator/yield`函数
+  - [Generator/yield]()
+- Generator与Promise的语法糖，可以像写同步代码一样书写异步逻辑的`async/await`函数
+  - [async/await]()
