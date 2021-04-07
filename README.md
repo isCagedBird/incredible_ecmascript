@@ -18,6 +18,7 @@ console.info(helloWorld)
 ![hello world](./asset/hello_world.png)
 
 ### 3.目录
+[讲解几个例子上手canvas动画](./canvas/main.md)  
 [函数式、命令式迭代方法大演练，一网打尽](./js_loop/main.md)  
 [awesome！incredible！异步编程其二——Promise](./async/main.md)  
 [awesome！incredible！异步编程其三——Generator/yield](./async/main.md)  
@@ -48,5 +49,4 @@ console.info(helloWorld)
 [js 延伸——你必须熟知的 HTTP 协议](./README.md)  
 [js 程序员如何了解到更多的服务端开发知识](./README.md)  
 [聊聊 base64 转码](./README.md)  
-[用 canvas 搞一个酷炫的动画](./README.md)  
 [...](./README.md)  
