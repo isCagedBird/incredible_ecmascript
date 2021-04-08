@@ -1,4 +1,6 @@
-### 五彩螺旋图动画
+本文是`快速上手canvas动画`系列的第一期，系列每期会做一个动画效果，帮助你快速掌握canvas动画制作。
+***
+H5的canvas元素为js带来了控制像素的能力，这为前端UI构建带来了更多的想象。本期我们来做做一个简单的动画效果，画一个螺旋图动画。你可以在[这里](./demo_code/vortex.js)获得连贯的代码，并且粘贴到浏览器控制台看看实际运行的的效果。关于canvas的基本概念你可以[参考这里](https://developer.mozilla.org/zh-CN/docs/Web/API/Canvas_API)，本文这次用到的api会在行文中介绍。
 ```javascript
 {
 
@@ -76,3 +78,4 @@
 
 }
 ```
+![效果图](../asset/vortex.png)  

@@ -18,7 +18,7 @@ console.info(helloWorld)
 ![hello world](./asset/hello_world.png)
 
 ### 3.目录
-[讲解几个例子上手canvas动画](./canvas/main.md)  
+[`快速上手canvas动画`第一期，画一个绚彩螺旋](./canvas/main.md)  
 [函数式、命令式迭代方法大演练，一网打尽](./js_loop/main.md)  
 [awesome！incredible！异步编程其二——Promise](./async/main.md)  
 [awesome！incredible！异步编程其三——Generator/yield](./async/main.md)  
