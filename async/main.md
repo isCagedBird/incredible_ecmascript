@@ -27,4 +27,4 @@ anima(set)
 - 可以中断函数执行的`Generator/yield`函数
   - [Generator/yield]()
 - Generator与Promise的语法糖，可以像写同步代码一样书写异步逻辑的`async/await`函数
-  - [async/await]()
+  - [async/await](./async_await/main.md)
