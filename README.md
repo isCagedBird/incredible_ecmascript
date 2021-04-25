@@ -18,6 +18,7 @@ console.info(helloWorld)
 ![hello world](./asset/hello_world.png)
 
 ### 3.目录
+[柯里化函数和compose函数](./functional/curry_compose/main.md)  
 [用上ES6的class，从ES5的面向对象噩梦逃逸出来](./class/main.md)  
 [快速上手canvas动画第一期，画一个绚彩螺旋](./canvas/main.md)  
 [函数式、命令式迭代方法大演练，一网打尽](./js_loop/main.md)  
